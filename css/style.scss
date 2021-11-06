@@ -415,10 +415,11 @@ iframe{
 // ■// ■// ■// ■コンテンツ３（HISTORY）ーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 .cont3-img{
   float: left;
+  width: 70%;
   img{
-    width: 80%;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 70%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 .cont3-item{
@@ -427,7 +428,6 @@ iframe{
     p{
       width: 100%;
       text-align: left;
-      padding-left: 10px;
     }
   }
 // ■// ■// ■// ■コンテンツ５（ACCESS）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
