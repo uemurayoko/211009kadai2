@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  width: 100%;
+  background-color: #faf0e6;
+}
+#mainbox{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+// ヘッダーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.header{
+  overflow: hidden;
+  background-color: #f5deb3;
+}
+.header-rogo img{
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.header-catchcopy{
+  float: left;
+  padding: 30px 30px;
+  h2{
+    font-size: 20px;
+  }
+}
+.header-telephone{
+  text-align: right;
+  padding: 30px 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  background-color: #ffefd5;
+  font-size: 20px;
+}
+.nav{
+  ul{
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    list-style: none;
+    padding: 40px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover{
+      color:#808080;
+    }
+  } 
+}
+
+
+// キービジュアルーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.top-img{
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/kaffe.png");
+  background-size: cover;
+}
+
+// すべてのコンテンツーーーーーーーーーーーーーーーーーーーーーーーー
+#contentbox{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #faf0e6;
+}
+h3{
+  margin-top: 50px;
+  padding: 10px 0;
+  font-size: 25px;
+  background-color: #cd853f;
+}
+
+#cont1,#cont2,#cont3,#cont4,#cont5,#cont6{
+  background-color: #fff;
+  padding: 50px 0;
+  width: 100%;
+}
+
+// コンテンツ１(menu)－ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+#cont1 {
+.cont1-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 250px;
+  img{
+    width: 200px;
+    height: 150px;
+  }
+  p{
+    font-size: 13px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+}
+// コンテンツ２（CONCEPT）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont2-item1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  p{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .cont2-item1-p{
+    padding-top: 50px;
+    width: 100%;
+  }
+  .cont2-item1-img{
+    padding-left: 80px;
+  }
+  img{
+    width: 100%;
+  }
+  // ------------------------------------
+}
+.cont2-item2{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+}
+.cont2-item2-p{
+  padding-top: 50px;
+  width: 100%;
+  p{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+.cont2-item2-move{
+  padding-right: 80px;
+}
+
+// コンテンツ３（HISTORY）ーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont3-img{
+  float: left;
+  img{
+    width: 200px;
+    height: 310px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+#cont3{
+  .cont3-item{
+    width: 90%;
+    margin: 0 auto;
+  }
+  p{
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
+// コンテンツ４（what's new）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+#cont4{
+  padding: 0;
+  dl{
+    width: 100%;
+  }
+}
+.cont4-item{
+  dt{
+    background-color: #ffebcd;
+  }
+  dd{
+    padding: 10px 0;
+  }
+}
+
+// コンテンツ５（ACCESS）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont5-item{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 80px;
+  p{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+  div{
+    height: 350px;
+    margin-top: 100px;
+  }
+  iframe{
+    width: 50%;
+    margin-bottom: 15px;
+  }
+}
+
+// コンテンツ６（CONTACT）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+#cont6 form{
+  width: 800px;
+  margin: 0 auto;
+}
+.cont6-item{
+  margin: 0 auto;
+  width: 600px;
+  th{
+    width: 200px;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #d2b48c;
+    border: 1px solid #f5deb3;
+  }
+  td{
+    width: 300px;
+    text-align: left;
+    padding-left: 10px;
+      textarea{
+        width: 300px;
+        height: 200px;
+        padding-top: 5px;
+        }
+    }
+}
+
+.button{
+  width: 80px;
+  height: 10ox;
+  margin-top: 20px;
+}
+
+// フッターーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.footer-item{
+  background-color: #ffefd5;
+  margin-top: 80px;
+  display: flex;
+  
+  vertical-align: top;
+  height: 90px;
+}
+.footer img{
+  width: 90px;
+  height: 90px;
+}
+.footer-nav{
+  ul{
+    padding-left: 90px;
+    width: 80%;
+    margin-top: 12px;;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  li{
+    width: 200px;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 30px 5px 10px;
+    font-weight: normal;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover{
+      color:#808080;
+    }
+  } 
+}
+
+// コピーライトーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.copyright{
+  padding: 10px 0;
+  text-align: center;
+  font-size: 10px;
+  background-color: #f5deb3;
+}
+
+
+// ■// ■// ■// ■レスポンシブここらか// ■// ■// ■// ■// ■// ■// ■
+
+@media screen and (max-width: 600px) {
+  .nav,.header-telephone{
+    display: none;
+  }
+// キービジュアルーーーーーーーーーーーーーーーーーーーーーーーーーーー
+  .top-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/kaffe.png");
+    background-size: cover;
+  }
+// すべてのコンテンツーーーーーーーーーーーーーーーーーーーーーーーー
+#contentbox{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #faf0e6;
+}
+h3{
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #cd853f;
+}
+
+#cont1,#cont2,#cont3,#cont4,#cont5,#cont6{
+  background-color: #fff;
+  padding: 30px 0;
+  width: 100%;
+}
+
+ // コンテンツ２（CONCEPT）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont2-item1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  p{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .cont2-item1-p{
+    padding-top: 0;
+    width: 100%;
+  }
+  .cont2-item1-img{
+    padding-left: 10px;
+  }
+  img{
+    width: 100%;
+  }
+  // ------------------------------------
+
+
+}
+.cont2-item2{
+  width: 100%;
+  display: block;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+}
+.cont2-item2-p{
+  padding-top: 0;
+  width: 100%;
+  p{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+.cont2-item2-move{
+  padding-bottom: 20px;
+  padding-right: 0;
+}
+// コンテンツ３（HISTORY）ーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont3-img{
+  float: left;
+  img{
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+#cont3{
+  .cont3-item{
+    width: 100%;
+    margin: 0 auto;
+  }
+  p{
+    width: 90%;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+}
+// コンテンツ５（ACCESS）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.cont5-item{
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-right: 0;
+  p{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  div{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+  }
+  iframe{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+// コンテンツ６（CONTACT）ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.contact{
+  display: none;
+}
+#cont6{
+  display: none;
+//   width: 100%;
+//   margin: 0 auto;
+//   form{
+//     width: 100%;
+//   }
+// }
+// .cont6-item{
+//   margin: 0 auto;
+//   width: 100%;
+//   padding-left: 35px;
+//   th{
+//     font-size: 12px;
+//     width: 30%;
+//     padding: 10px 30px;
+//     text-align: left;
+//     background-color: #d2b48c;
+//     border: 1px solid #f5deb3;
+//   }
+//   td{
+//     font-size: 10px;
+//     text-align: left;
+//     padding-left: 10px;
+//       textarea{
+//         width: 300px;
+//         height: 200px;
+//         padding-top: 5px;
+//         }
+//     }
+ }
+
+.button{
+  width: 80px;
+  height: 10ox;
+  margin-top: 20px;
+}
+// フッターーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+.footer-item{
+  background-color: #ffefd5;
+  margin-top: 0px;
+  display: flex;
+  
+  vertical-align: top;
+  height: 200px;
+}
+.footer img{
+  width: 200px;
+  height: 200px;
+}
+.footer-nav{
+  ul{
+    margin-top: 8px;
+    padding-left: 30px;
+
+  }
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  li{
+    width: 200px;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px 6px 20px;
+    font-size: 14px;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover{
+      color:#808080;
+    }
+  } 
+}
+
+
+}
