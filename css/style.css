@@ -181,7 +181,7 @@ h3 {
   margin: 0 auto;
 }
 
-p {
+.cont3-item p {
   width: 100%;
   text-align: left;
 }
@@ -459,13 +459,13 @@ p {
     padding-right: 10px;
   }
   .cont3-item {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   .cont3-item p {
-    width: 90%;
+    width: 100%;
     text-align: left;
-    padding-left: 0px;
+    padding-left: 10px;
   }
   .cont5-item {
     width: 100%;
